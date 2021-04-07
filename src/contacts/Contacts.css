@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+div, p{
+    margin: 0;
+}
+
+.Form_wrapper{
+    width: 640px;
+    height: 592px;
+    margin: 68px auto 150px 198px;
+    border: 1px solid #000;
+    padding: 58px 54px 40px 76px;
+    box-sizing: border-box;
+}
+
+.Form_header p{
+    font-family: Rubik;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+    
+
+}
+
+input, button{
+    width: 442px;
+    height: 70px;
+    border-radius: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+
+input::placeholder{
+    padding: 20px;
+    font-size: 600;
+}
+
+button{
+    background-color: rgba(0, 174, 255, 0.726);
+    color: white;
+    border: none;
+}
+
+.error{
+    color: crimson;
+}
